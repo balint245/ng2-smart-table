@@ -12,9 +12,9 @@ import { Column } from '../../../../lib/data-set/column';
                 (click)="_sort($event)"
                 class="ng2-smart-sort-link sort"
                 [ngClass]="currentDirection">
-      {{ column.title }}
+      {{ column.title }} lófasz
     </a>
-    <span class="ng2-smart-sort" *ngIf="!column.isSortable">{{ column.title }}</span>
+    <span class="ng2-smart-sort" *ngIf="!column.isSortable">{{ column.title }} lófasz</span>
   `,
 })
 export class TitleComponent implements OnChanges {
